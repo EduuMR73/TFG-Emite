@@ -522,7 +522,7 @@ NODE_ENV=development
 
 ## 👤 Autor
 
-**Eduardo Moreno Reinoso**
+**Eduardo Moreno Rodríguez**
 
 Estudiante de 2.º DAM — Desarrollo de Aplicaciones Multiplataforma  
 IES Rafael Alberti · San Fernando, Cádiz
