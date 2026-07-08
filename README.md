@@ -1,4 +1,4 @@
-# Emite — Plataforma SaaS de Facturación y Contabilidad
+﻿# Emite — Plataforma SaaS de Facturación y Contabilidad
 
 > **Emite. Cobra. Crece.**  
 > Solución cloud para autónomos y PYMEs españolas: facturación Verifactu, contabilidad, open banking e IA.
@@ -13,7 +13,7 @@
 [![Capacitor](https://img.shields.io/badge/Capacitor-8-119EFF?logo=capacitor&logoColor=white)](https://capacitorjs.com)
 [![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?logo=prisma&logoColor=white)](https://www.prisma.io)
 [![AWS S3](https://img.shields.io/badge/AWS-S3-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/s3)
-[![Tests](https://img.shields.io/badge/Tests-254%20passing-16a34a?logo=jest&logoColor=white)](https://jestjs.io)
+[![Tests](https://img.shields.io/badge/Tests-268%20passing-16a34a?logo=jest&logoColor=white)](https://jestjs.io)
 [![License](https://img.shields.io/badge/Licencia-TFG_DAM-E8C96D)](.)
 
 ---
@@ -64,7 +64,7 @@ El proyecto nace con aspiraciones comerciales reales y ha sido desarrollado ínt
 - 💳 **Monetización SaaS completa**: 6 planes de Stripe (9,90€ → 99,90€/mes), trial de 14 días, portal de cliente y webhooks
 - 🏢 **Multi-empresa**: gestión de múltiples empresas por usuario, con aislamiento total de datos por `x-company-id`
 - 📱 **App Android nativa** generada con Capacitor 8 desde la misma base de código Angular/Ionic
-- 🧪 **254 tests unitarios** pasando en 19 suites Jest (100% pass rate)
+- 🧪 **268 tests unitarios** pasando en 19 suites Jest (100% pass rate)
 
 ---
 
@@ -119,7 +119,7 @@ PostgreSQL  Firebase Auth                        Servicios externos
 | Emails | Resend | 6.12.3 | Notificaciones transaccionales |
 | PDF | PDFKit | 0.17.2 | Generación de facturas en PDF |
 | Decimales | Decimal.js | 10.6.0 | Aritmética monetaria sin errores de coma flotante |
-| Tests | Jest + ts-jest | 30.0.0 | 254 tests unitarios en 19 suites |
+| Tests | Jest + ts-jest | 30.0.0 | 268 tests unitarios en 19 suites |
 
 ### Frontend
 
@@ -332,7 +332,7 @@ npx cap open android
 
 ```
 Test Suites: 19 passed, 19 total
-Tests:       254 passed, 254 total
+Tests:       268 passed, 268 total
 Snapshots:   0 total
 Time:        ~7.6 s
 ```
