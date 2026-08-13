@@ -18,12 +18,12 @@
 
 ---
 
-**Trabajo Final de Grado · Desarrollo de Aplicaciones Multiplataforma**  
+**Trabajo Final de Grado · Desarrollo de Aplicaciones Multiplataforma** — Calificación: 9/10  
 IES Rafael Alberti — San Fernando, Cádiz · Curso 2025-2026
 
 🔗 **Repositorio Backend:** [github.com/EduuMR73/TFG-APP-BACKEND](https://github.com/EduuMR73/TFG-APP-BACKEND)  
 🔗 **Repositorio Frontend:** [github.com/EduuMR73/TFG-APP-FRONTEND](https://github.com/EduuMR73/TFG-APP-FRONTEND)  
-🚀 **Demo en producción:** [https://emite-app.onrender.com](https://emite-app.onrender.com)
+🚀 **Demo en producción:** [https://emite.eduumr.dev](https://emite.eduumr.dev/)
 
 ---
 
@@ -138,8 +138,8 @@ PostgreSQL  Firebase Auth                        Servicios externos
 
 | Servicio | Uso |
 |---------|-----|
-| Render (Frankfurt) | Backend NestJS + Frontend Angular |
-| PostgreSQL en Render | Base de datos de producción |
+| VPS propio (Docker + Nginx) | Backend NestJS + Frontend Angular, reverse proxy y TLS |
+| PostgreSQL (contenedor Docker) | Base de datos de producción |
 | Firebase (Google) | Autenticación de usuarios |
 | AWS S3 | Almacenamiento de documentos |
 | Cloudinary | CDN de imágenes |
@@ -150,6 +150,8 @@ PostgreSQL  Firebase Auth                        Servicios externos
 ---
 
 ## 📦 Módulos Implementados
+
+Organizados en 11 módulos de código que cubren 17 funcionalidades de negocio completas — los sub-tipos de facturación (proforma, recurrentes, borradores, rectificativas) están agrupados dentro de Facturas, y Stripe y Capacitor tienen sección técnica propia más abajo en este documento.
 
 | # | Módulo | Descripción |
 |---|--------|-------------|
